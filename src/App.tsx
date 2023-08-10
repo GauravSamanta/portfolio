@@ -1,6 +1,5 @@
 import NavBar from "./components/NavBar";
 import About from "./components/About"
-import "@fontsource/inter";
 function App() {
   return (
     <body>
