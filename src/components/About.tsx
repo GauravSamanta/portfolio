@@ -1,4 +1,3 @@
-import "@fontsource/inter";
 function About() {
   return (
     <div className="about ml-80 mt-16">
