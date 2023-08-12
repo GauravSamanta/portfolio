@@ -1,5 +1,7 @@
 import NavBar from "./components/NavBar";
 import About from "./components/About"
+import SkillBar from "./components/SkillBar";
+import Card from "./components/Card";
 function App() {
   return (
     <body>
@@ -12,6 +14,11 @@ function App() {
         </div>
         <About></About>
       </div>
+      <div>
+    <SkillBar/>
+      </div>
+      <Card></Card>
+    
     </body>
   );
 }

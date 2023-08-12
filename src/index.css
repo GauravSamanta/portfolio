@@ -1,9 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+.card {
+  display: flex;
+  border-radius: 22px;
+  background: var(--basic-onyx, #181818);
+  border: 1px solid var(--dark-card-border, #383737);
+  width: 130px;
+  height: 130px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.skill {
+  width: 80px;
+  height: 80px;
+}
 body {
   background-color: black;
   overflow-x: hidden;
@@ -11,7 +25,6 @@ body {
 
 .name {
   margin-left: 4vb;
-
 }
 
 .intro {
@@ -33,11 +46,12 @@ body {
   align-items: center;
   /* gap: 8px; */
   border-radius: 9px;
-  background: var(--gradient-dark-gradient, linear-gradient(180deg, #1A1A1A 0%, #131313 100%));
+  background: var(
+    --gradient-dark-gradient,
+    linear-gradient(180deg, #1a1a1a 0%, #131313 100%)
+  );
   /* box-Shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset, 0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset; */
 }
-
-
 
 .last-name {
   margin-left: 10px;
@@ -65,10 +79,6 @@ body {
 
 .about {
   display: inline-flex;
-
-
-
-
 }
 
 .center-elip,
@@ -77,7 +87,6 @@ body {
   position: absolute;
   width: 56.97%;
   height: 17.86%;
-
 
   border-radius: 50%;
   /* Using 50% for a circular shape instead of 56.98% */
@@ -90,7 +99,6 @@ body {
   top: -1vb;
   width: 56%;
   height: 26.33%;
-
 
   /* Rounded to two decimal places */
 
@@ -106,7 +114,6 @@ body {
   width: 56.97%;
   height: 17.86%;
 
-
   /* Rounded to two decimal places */
 
   background: rgba(63, 100, 233, 0.43);
@@ -120,8 +127,6 @@ body {
   left: 90vb;
   width: 56.97%;
   height: 17.86%;
-
-
 
   background: rgba(255, 184, 0, 0.43);
   filter: blur(118.08055114746094px);
