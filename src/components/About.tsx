@@ -1,4 +1,7 @@
 function About() {
+  const openYouTubeLink = () => {
+    window.open('https://www.youtube.com/shorts/o-MImREb9oY', '_blank');
+  };
   return (
     <div className="about ml-80 mt-16">
       <div>
@@ -10,7 +13,7 @@ function About() {
       with a focus on game development and software engineering. <br />Committed to exceptional outcomes through coding expertise. </div>
       <div className="flex flex-row py-3.5 space-x-4 mt-5">
       <div className="basis-1/4 btn pr-px text-[#d9d9d9]"> <input type="button" value="My Resume" /></div>
-      <div className="basis-1/4 btn text-[#d9d9d9]"> <input type="button" value="Contact Me" /></div>
+      <div className="basis-1/4 btn text-[#d9d9d9]"> <input onClick={openYouTubeLink} type="button" value="Contact Me" /></div>
       </div>
 
         </div>
